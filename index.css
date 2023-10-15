@@ -1,0 +1,16 @@
+html {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.description{
+  font-family: Arial, Arial Bold;
+  text-align: center;
+  color: Dark blue;
+  font-weight: 300;
+}

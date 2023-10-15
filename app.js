@@ -2,9 +2,9 @@ function getWeather() {
   let temperature = document.getElementById("temperature");
   let description = document.getElementById("description");
   let location = document.getElementById("location");
-
-  let api = "api.openweathermap.org/data/2.5/weather?q={city name}&APPID={apiKey}";
+  
   let apiKey = "2da1e54d97209acb6696623d0a65fa9e";
+  let api = "api.openweathermap.org/data/2.5/weather?q={city name}&APPID={apiKey}";
 
   location.innerHTML = "Locating...";
 

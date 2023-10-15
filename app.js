@@ -39,6 +39,5 @@ function getWeather() {
   function error() {
     location.innerHTML = "Error encountered when retreiving your location";
   }
-}
 //call the function getWeather
 getWeather();

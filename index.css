@@ -6,11 +6,26 @@ html {
 
 body {
   margin: 0 auto;
+  background-color: light-blue;
+}
+
+.location{
+  font-family: Arial, Arial Bold;
+  text-align: center;
+  color: dark-blue;
+  font-weight: 300;
 }
 
 .description{
   font-family: Arial, Arial Bold;
   text-align: center;
-  color: Dark blue;
+  color: dark-blue;
   font-weight: 300;
+}
+
+img{
+  object-fit: cover;
+  width: 120px;
+  height: 120px;
+  border-radius: 1px auto dotted;
 }

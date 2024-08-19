@@ -25,12 +25,12 @@ function getWeather() {
       apiKey +
       //set to metric
       "&units=metric";
-   /* if (temperature.name == "Clouds"){
+    if (temperature.name === "Clouds"){
       $("#img").attr("src","/img/170-1709571_cartoon-clip-art-cartoon-white-clouds-png-transparent.png");
     } 
-    else if (temperature.name = "Lightning"){
+    else if (temperature.name === "Lightning"){
        $("#img").attr("src","/img/R.png");
-    } */
+    } 
     fetch(url)
       .then(response => response.json())
       .then(data => {
